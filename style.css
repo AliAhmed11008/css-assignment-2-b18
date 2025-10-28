@@ -1,0 +1,45 @@
+@font-face {
+    font-family:Roboto ;
+    src: url(fonts/Roboto/static/Roboto-Medium.ttf);
+}
+
+body{
+    font-family: Roboto , sans-serif;
+}
+
+.page > h1{
+    text-align: center;
+    color: rgb(96, 168, 192);
+    text-shadow: 1px 1px black;
+}
+
+.page > p{
+    text-indent: 1%;
+    color: rgb(59, 57, 57);
+}
+
+.page > p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+.page >p::first-line{
+
+    color: rgb(109, 114, 116);
+}
+.page > a{
+    text-decoration: none;
+    text-indent: 10px;
+
+}
+
+.page > a:hover{
+    color: orange;
+    text-decoration: none;
+}
+
+.ty{
+     display: block;
+    text-align: center;
+    color: rgb(56, 58, 58);
+}
